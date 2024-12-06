@@ -1,0 +1,25 @@
+// definir as variáveis
+
+let pokemon = ["Poochyiena" , "Zigzagoon" , "Dragonite" , "Wurmple"]
+let levelPokemon = [2, 5, 3]
+let sexoPokemon = ["M", "F"]
+let vidaPokemon = ["13/13" , "25/25" , "24/24" , "15/15" , "7/14"]
+
+let timePokemon0 = [[pokemon[0], levelPokemon[0], sexoPokemon[0], vidaPokemon[0]]]
+let timePokemon1 = [[pokemon[1], levelPokemon[0], sexoPokemon[1], vidaPokemon[0]]]
+let timePokemon2 = [[pokemon[2], levelPokemon[1], sexoPokemon[0], vidaPokemon[1]]]
+let timePokemon3 = [[pokemon[2], levelPokemon[1], sexoPokemon[1], vidaPokemon[2]]]
+let timePokemon4 = [[pokemon[2], levelPokemon[1], sexoPokemon[1], vidaPokemon[2]]]
+let timePokemon5 = [[pokemon[0], levelPokemon[2], sexoPokemon[1], vidaPokemon[3]]]
+let timePokemon6 = [[pokemon[4], levelPokemon[0], sexoPokemon[0], vidaPokemon[4]]]
+
+//definir constantes
+
+const p1 = "O Pokémon "
+const p2 = " foi cadastrado com sucesso!"
+
+//Saida
+console.log(p1 + pokemon[0] + p2)
+console.log(p1 + pokemon[1] + p2)
+console.log(p1 + pokemon[2] + p2)
+console.log(p1 + pokemon[3] + p2)
